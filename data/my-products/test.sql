@@ -32,6 +32,8 @@ SELECT * FROM my_product
 WHERE brand IN ('google', 'apple')
 ORDER BY price DESC;
 
+
+
 -- 分頁(查詢字串 QS: page=2&perpage=5) (目前page頁，每頁perpage筆資料)
 -- 公式: limit = perpage
 --       offset = (page-1) * perpage
